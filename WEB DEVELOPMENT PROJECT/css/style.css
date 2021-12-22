@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	color: inherit;
+	font-size: 100%;
+	font-weight: 400;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Open Sans', sans-serif;
+}
+/*font-family: 'Roboto', sans-serif;*/
+.block2{
+	background: url("https://www.desktopbackground.org/download/o/2015/01/26/893178_astrology-wallpapers_1024x768_h.jpg") no-repeat center/cover;
+}
+.block1{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/astrology-astronomy-constellation-5k-2880x1800.jpg) no-repeat center/cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.block1 header{
+	width: 100%;
+	background: #fff;
+	padding: 20px 0;
+	overflow: hidden;
+}
+.block1 header .container{
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.block1 header .logo{
+	color: #212121;
+	font-size: 20px;
+	font-weight: 700;
+}
+.block1 header menu{
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+	
+}
+.block1 header menu a{
+	font-size: 14px;
+	font-weight: 600!important;
+	padding: 5px 0;
+	transition: 0.4s;
+	border-bottom: 1px solid rgba(0,0,0,0);
+	border-top: 1px solid rgba(0,0,0,0);
+	color: inherit;
+}
+.block1 article{
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.block1 article h1{
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+.block1 article h2{
+	font-size: 13.5px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 1.1px;
+	margin-bottom: 45px;
+}
+.block1 article div{
+	display: flex;
+
+}
+.block1 article div nav:first-child{
+	width: 180px;
+	height: 50px;
+	border: 3px solid #f8f8f8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 25px;
+}
+
+
+.block2{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.block2 header{
+	width: 100%;
+	background: #fff;
+	padding: 20px 0;
+	overflow: hidden;
+}
+.block2 header .container{
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.block2 header .logo{
+	color: #212121;
+	font-size: 20px;
+	font-weight: 700;
+}
+.block2 header menu{
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+
+}
+.block2 header menu a{
+	font-size: 14px;
+	font-weight: 600!important;
+	padding: 5px 0;
+	transition: 0.4s;
+	border-bottom: 1px solid rgba(0,0,0,0);
+	border-top: 1px solid rgba(0,0,0,0);
+	color: inherit;
+}
+.block2 article{
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.block2 article h1{
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+.block2 article h2{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 1.1px;
+	margin-bottom: 45px;
+}
+.block2 article div{
+	display: flex;
+
+}
+.block2 article div nav:first-child{
+	width: 180px;
+	height: 50px;
+	border: 3px solid #f8f8f8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 25px;
+}
+
+
+
+
+
+.block3{
+	width: 100%;
+	height: 100vh;
+	background: url("https://i.pinimg.com/originals/96/69/32/966932addf40da9dccfacad5d09b15da.jpg") no-repeat center/cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.block3 header{
+	width: 100%;
+	background: #fff;
+	padding: 20px 0;
+	overflow: hidden;
+}
+.block3 header .container{
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.block3 header .logo{
+	color: #212121;
+	font-size: 20px;
+	font-weight: 700;
+}
+.block3 header menu{
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+
+}
+.block3 header menu a{
+	font-size: 14px;
+	font-weight: 600!important;
+	padding: 5px 0;
+	transition: 0.4s;
+	border-bottom: 1px solid rgba(0,0,0,0);
+	border-top: 1px solid rgba(0,0,0,0);
+	color: inherit;
+}
+.block3 article{
+	color: #f8f8f8;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.block3 article h1{
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+.block3 article h2{
+	font-size: 13.5px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 1.1px;
+	margin-bottom: 45px;
+}
+.block3 article div{
+	display: flex;
+
+}
+.block3 article div nav:first-child{
+	width: 180px;
+	height: 50px;
+	border: 3px solid #f8f8f8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 25px;
+}
+
+
+
+
+
+.block4{
+	width: 100%;
+	height: 100vh;
+	background: url("https://i.pinimg.com/originals/96/69/32/966932addf40da9dccfacad5d09b15da.jpg") no-repeat center/cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.block4 header{
+	width: 100%;
+	background: #fff;
+	padding: 20px 0;
+	overflow: hidden;
+}
+.block4 header .container{
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.block4 header .logo{
+	color: #212121;
+	font-size: 20px;
+	font-weight: 700;
+}
+.block4 header menu{
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+
+}
+.block4 header menu a{
+	font-size: 14px;
+	font-weight: 600!important;
+	padding: 5px 0;
+	transition: 0.4s;
+	border-bottom: 1px solid rgba(0,0,0,0);
+	border-top: 1px solid rgba(0,0,0,0);
+	color: inherit;
+}
+.block4 article{
+	color: #f8f8f8;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.block4 article h1{
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+.block4 article h2{
+	font-size: 13.5px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 1.1px;
+	margin-bottom: 45px;
+}
+.block4 article div{
+	display: flex;
+
+}
+.block4 article div nav:first-child{
+	width: 180px;
+	height: 50px;
+	border: 3px solid #f8f8f8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 25px;
+}
+
